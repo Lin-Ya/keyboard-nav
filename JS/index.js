@@ -10,18 +10,16 @@ let key_hash = {
     'b': 'baidu.com',
     'g': 'google.com',
     'f': 'resume.fengxiaoyong.work',
-    'v': 'vuejs.org',
     'z': 'zhihu.com',
-    'h': 'hupo.com',
+    'h': 'www.hupu.com',
     'a': 'iqiyi.com',
     'e': 'ele.me',
     'm': 'meituan.com',
     'l': 'linkedin.com',
     's': 'stackoverflow.com',
-    'c': 'csdn.net',
     'i': 'ithome.com',
     'u': 'uiiiuiii.com',
-    'n': 'npmjs.com'
+    'r': 'reactjs.org'
 }
 
 initKeybord(key_map)

@@ -58,10 +58,38 @@ main {
 .key_module {
     width: 56px;
     height: 48px;
-    padding: 4px 0 0 4px;
-    background-color: red;
+    padding: 2px 0 0 4px;
+    background-color: black;
     margin: 0 16px;
     font-size: 20px;
     color: #fff;
     font-weight: bold;
+    position: relative;
+}
+
+.key_module:hover button {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.key_module img {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.key_module button {
+    position: absolute;
+    left: 4px;
+    bottom: 4px;
+    border: none;
+    padding: 1px;
+    border-radius: 5px;
+    opacity: 0;
 }
